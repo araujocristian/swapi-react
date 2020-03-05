@@ -1,68 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="Fastfeet" title="Fastfeet" src="https://lh4.googleusercontent.com/zL5Ri6F_Uobt7fvdDFzqwPzbmId4g2UKvS7swOj-KveBn_nw1sg5hrF4N5ce21VSg25LgAxDOAyJkIt2KmM53LqUa7m8vufCIOLpcLbvIO54YOr8Lgd8xV0_OPEVfL3ouASy9oqn" />
+</p>
 
-## Available Scripts
+<h1 align="center">
+  Desafio B2W - SWAPI
+</h1>
 
-In the project directory, you can run:
+<p align="center">A B2W gostaria de fazer uma brincadeira com seus associados, que são aficionados por Star Wars. O jogo consiste em, dado um planeta aleatório da franquia, exibir como seria o clima, o terreno e em quantos filmes da franquia ele apareceu.
+</p>
 
-### `yarn start`
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/araujocristian/swapi-react?color=%2304D361">
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <a href="https://rocketseat.com.br">
+    <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/araujocristian/swapi-react?color=%2304D361">
+  </a>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
 
-### `yarn test`
+  <a href="https://github.com/Rocketseat/bootcamp-gostack-desafio-02/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/araujocristian/swapi-react?style=social">
+  </a>
+</p>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Detalhes
 
-### `yarn build`
+Para auxiliar quem for apresentar a brincadeira, queremos desenvolver uma aplicação que pegue aleatoriamente um planeta da franquia e exiba seus dados para servir como cola.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Uma equipe de UX especializada desenvolveu a seguinte proposta de interface:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<p align="center">
+  <img alt="Fastfeet" title="Fastfeet" src="https://lh3.googleusercontent.com/tubJ22pBao1DQy3o0VfBjcmrN4epO7Q04KVk3D1JeVSIuJwvoDru-XqtxDnHsX7yeZz-qdkXpb2HZNrc5FFV9XKezGuzERTa2jagCy5Ht3sEl8JBHzJrCxn_8SkjYqmfGfJcN_Rb" />
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Você tem liberdade para criar uma interface com as informações mostradas acima. Recomendamos usar React, facilitado pelo create-react-app, porém sinta-se à vontade para nos surpreender com outras tecnologias.
 
-### `yarn eject`
+As informações sobre os planetas do Star Wars encontram-se na API:https://swapi.co/
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<p align="center">May the force be with you!</h1>
