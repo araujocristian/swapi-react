@@ -17,18 +17,18 @@ const Planet = () => {
   const [{ planet, loading, error }, getPlanet] = useGetPlanet();
   const [nextPlanet, setNextPlanet] = useState(false);
 
-  useEffect(() => {
-    let planetId = Math.floor(Math.random() * 61 + 1);
-    getPlanet(planetId);
-    setNextPlanet(false);
-  }, [nextPlanet]);
-
   const onClick = () => {
     let planetId = Math.floor(Math.random() * 61 + 1);
     getPlanet(planetId);
   };
 
+  useEffect(() => {
+    onClick();
+    setNextPlanet(false);
+  }, [nextPlanet]);
+
   if (loading) return <Loader />;
+
   if (error) return <Error />;
 
   return (
