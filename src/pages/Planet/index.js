@@ -11,6 +11,7 @@ import {
   PlanetCardFilm
 } from "./styles";
 import Loader from "../Loader";
+import Error from "../Error";
 
 const Planet = () => {
   const [{ planet, loading, error }, getPlanet] = useGetPlanet();
@@ -28,7 +29,7 @@ const Planet = () => {
   };
 
   if (loading) return <Loader />;
-  if (error) return <div>Error :(</div>;
+  if (error) return <Error />;
 
   return (
     <Container>
